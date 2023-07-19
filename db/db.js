@@ -8,37 +8,52 @@ export const skills = [
   {
     skillName: "JavaScript, TypeScript",
     color: "1",
-    percentage: "80",
+    percentage: "90",
   },
   {
     skillName: "Angular, Rxjs, Ngxs",
     color: "1",
-    percentage: "70",
+    percentage: "80",
   },
   {
     skillName: "HTML, Bootstrap, Tailwind",
     color: "4",
-    percentage: "70",
+    percentage: "75",
   },
   {
-    skillName: "Docker",
+    skillName: "Docker, Kubernetes",
     color: "4",
-    percentage: "70",
-  },
-  {
-    skillName: "Kubernetes",
-    color: "1",
     percentage: "80",
   },
   {
-    skillName: "Elastic Search",
+    skillName: "React, ReactNative",
     color: "1",
-    percentage: "50",
+    percentage: "85",
+  },
+  {
+    skillName: "Python, Flask, Django",
+    color: "1",
+    percentage: "90",
   },
   {
     skillName: "GoLang",
     color: "4",
-    percentage: "70",
+    percentage: "80",
+  },
+  {
+    skillName: "MongoDB, Cassandra",
+    color: "4",
+    percentage: "85",
+  },
+  {
+    skillName: "Postgres, MySQL",
+    color: "1",
+    percentage: "90",
+  },
+  {
+    skillName: "Solidity",
+    color: "1",
+    percentage: "50",
   },
 ];
 
@@ -158,7 +173,7 @@ export const experience = [
       "Handled VM OS disk swap for Azure cloud provider.",
       "Developed a log rotation policy for Azure App Clients."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["GoLang", "React", "Python", "Kubernetes", "Docker", "Postgres", "Cassandra", "TypeScript"],
     icon: "heartbeat",
   },
   {
@@ -173,7 +188,7 @@ export const experience = [
       "PAYU money integration in CL Panel.",
       "Working on the Payment integration in CL Panel."
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["NodeJs", "AWS", "TypeScript", "Angular 6"],
     icon: "qrcode",
   },
   {
@@ -186,7 +201,7 @@ export const experience = [
       "Forecasting of item usage over a period of time considering multiple levels of dynamic settings.",
       "Developed a report scheduler panel for clients so they can get desired reports on mail automatically for fixed parameters at a given time."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["AngularJs", "NodeJs", "MongoDB"],
     icon: "group",
   },
 ];
@@ -196,7 +211,7 @@ export const education = [
     title: "B. Tech (Information Technology )",
     duration: "4 Years",
     subtitle: "KIET Group Of Institutions",
-    details: [ ],
+    details: [],
     tags: [
       "Data Structures & Algorithms",
       "Web Development",
@@ -212,7 +227,7 @@ export const education = [
     title: "Class 11-12th in Science and Mathematics",
     duration: "",
     subtitle: "Asha Modern School(CBSE)",
-    details: [ ],
+    details: [],
     tags: ["Physics", "Chemistry", "Mathematics"],
     icon: "book",
   },
@@ -221,46 +236,32 @@ export const education = [
 export const freelance = [
   {
     title: "Alerzo",
-    duration: "January 2021 - Present",
+    duration: "January 2021 - May 2023",
     subtitle: "Senior Backend Engineer",
     details: [
       "Developed and implemented soware soluons to enhance the operaons of Alerzo's B2B e-commerce plaorm.",
-      "Created a delivery cost esmaon system that accurately calculates shipping expenses from the warehouse to customers, opmizing logiscs and improving cost efficiency.",
-      "Implemented a lending feature, enabling customers to shop on Alerzo by providing them with convenient and secure credit opons.",
-      "Designed and developed a vendor marketplace, akin to Amazon's marketplace, allowing suppliers to showcase and sell their products on the plaorm",
-      "Currently leading the development of a digital bank within the Alerzo ecosystem, leveraging innovave technologies to provide secure and user-friendly financial services."
+      "Created a delivery cost estimation system that accurately calculates shipping expenses from the warehouse to customers, optimizing logistics and improving cost efficiency.",
+      "Implemented a lending feature, enabling customers to shop on Alerzo by providing them with convenient and secure credit options.",
+      "Designed and developed a vendor marketplace, akin to Amazon's marketplace, allowing suppliers to showcase and sell their products on the platform",
+      "Currently leading the development of a digital bank within the Alerzo ecosystem, leveraging innovative technologies to provide secure and user-friendly financial services."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["TypeScript", "NodeJs", "MongoDB", "Elastic Search", "Kubernetes", "Docker", "Postgres", "MonStash"],
     icon: "heartbeat",
   },
   {
-    title: "WebAssets",
-    duration: "July 2020 - January 2021",
-    subtitle: "Software Developer",
+    title: "Wish",
+    duration: "May 2020 - May 2021",
+    subtitle: "Senior Full-Stack Engineer",
     details: [
-      "Worked on the Audit Panel for tracking Waybills and Shipments.",
-      "Worked on tracking API for HLD Panel using Geolocation API.",
-      "Worked on monitoring the LM Panel for the shipments per day and maintaining sanity in data.",
-      "WEX Report Calculation and creating a Ticket for the finance team to handle.",
-      "PAYU money integration in CL Panel.",
-      "Working on the Payment integration in CL Panel."
+      "Spearheaded last mile Time - to - Delivery(TTD) improvements, optimizing the journey from warehouses to customers, resulting in faster and more efficient deliveries.",
+      "Implemented user engagement strategies that led to increased customer retention and satisfaction, enhancing the overall user experience on the platform.",
+      "Successfully integrated UTM source tracking, enabling precise identification of user redirects and enhancing marketing insights for data - driven decision- making.",
+      "Played a key role in inventory management enhancements, significantly reducing TTD by streamlining the inventory processes.",
+      "Contributed to the development and success of Wish Local, facilitating seamless integration of local businesses into the platform, expanding the product reach and community engagement."
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "POSist",
-    duration: "January 2019 - July 2020",
-    subtitle: "Software Developer",
-    details: [
-      "Collaborated on all stages of the systems development lifecycle, from requirement gathering to production releases.",
-      "Developed a new Inventory System Module for the Concept of POSCloud which is very famous in European Countries which involved incubation of Multiple Brands.",
-      "Forecasting of item usage over a period of time considering multiple levels of dynamic settings.",
-      "Developed a report scheduler panel for clients so they can get desired reports on mail automatically for fixed parameters at a given time."
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+  tags: ["Flask", "Python", "MongoDB", "NodeJs", "ReactNative"],
+  icon: "qrcode",
+  }
 ];
 
 export const footer = [

@@ -410,10 +410,10 @@ populateSkills(skills, "skills");
 
 // fetchBlogsFromMedium(mediumURL);
 
-populateProjects(webProjects, "web-projects");
-populateProjects(softwareProjects, "software-projects");
-populateProjects(androidProjects, "android-projects");
-populateProjects(freelanceProjects, "freelance-projects");
+// populateProjects(webProjects, "web-projects");
+// populateProjects(softwareProjects, "software-projects");
+// populateProjects(androidProjects, "android-projects");
+// populateProjects(freelanceProjects, "freelance-projects");
 // populateDisclaimer(disclaimer, "project-disclaimer");
 
 populateExp_Edu(experience, "experience");
