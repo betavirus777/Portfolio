@@ -242,32 +242,11 @@
         $(".sticky-parent").removeClass("stick-detach");
         $("#sticky_item").trigger("sticky_kit:detach");
         $("#sticky_item").trigger("sticky_kit:unstick");
-
-        $("#sticky_item").stick_in_parent();
       }
     });
 
     $(".sticky-parent").css("height", h);
   };
-
-  var addQueryParam = function (url, paramName, paramValue) {
-    var urlObj = new URL(url);
-    urlObj.searchParams.set(paramName, paramValue);
-    return urlObj.toString();
-  }
-
-  var addQuery = function () {
-    if (window.location.hostname === 'betavirus') {
-      var urlParams = new URLSearchParams(window.location.search);
-      var yourParameter = urlParams.get('freelance');
-
-      if (!yourParameter) {
-        var newUrl = addQueryParam(window.location.href, 'freelance', 'true');
-        window.location.href = newUrl;
-      }
-    }
-  }
-
 
   // Document on load.
   $(function () {
@@ -279,8 +258,6 @@
 
     clickMenu();
     navigationSection();
-
-    addQuery();
 
     mobileMenuOutsideClick();
     sliderMain();

@@ -422,7 +422,7 @@ populateExp_Edu(education, "education");
 const queryParams = new URLSearchParams(window.location.search);
 
 // Check if the 'showDiv' parameter is present and set to 'true'
-if (queryParams.get('freelance') === 'true') {
+if (window.location.hostname === 'betavirus.xyz') {
   const arr = document.querySelectorAll('.toggle-display');
   arr[0].style.display = 'list-item';
   arr[0].innerHTML = `<a href="#" data-nav-section="free-space">Freelance</a>`;
