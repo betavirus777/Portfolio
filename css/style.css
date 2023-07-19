@@ -2582,6 +2582,10 @@ body.dark-mode.offcanvas #colorlib-aside {
 	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
 		display: none;
 	}
+
+	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+		display: none;
+	}
 }
 
 button#darkModeToggle {
