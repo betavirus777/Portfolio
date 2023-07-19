@@ -18,12 +18,12 @@ window.addEventListener("DOMContentLoaded", async function () {
                     <img style="width: 48px; height: 48px; border-radius: 50%" src="${profile_image}" alt="Profile image"></img>
                     <div style="display: flex; flex-direction: column; margin-left: 12px">
                         <span style="font-weight: 500; color: #black; font-size: 18px">
-                            <a style="text-decoration: none; color: inherit;" target="_blank" href="${website_url && link}">
+                            <a style="text-decoration: none; color: inherit;" target="_blank" href="${link}">
                                 ${display_name}
                             </a>
                         </span>
                         <span style="font-weight: 400; font-size: 12px">
-                            @${link.replace("https://", '').replace(`/users/${user_id}`,'')}
+                            @${link.replace("https://", '').replace(`/users/${user_id}`,'').replace('shivam-phutela', '')}
                         </span>
                     </div>
                 </div>

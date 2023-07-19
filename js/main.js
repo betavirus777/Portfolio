@@ -250,6 +250,25 @@
     $(".sticky-parent").css("height", h);
   };
 
+  var addQueryParam = function (url, paramName, paramValue) {
+    var urlObj = new URL(url);
+    urlObj.searchParams.set(paramName, paramValue);
+    return urlObj.toString();
+  }
+
+  var addQuery = function () {
+    if (window.location.hostname === 'betavirus') {
+      var urlParams = new URLSearchParams(window.location.search);
+      var yourParameter = urlParams.get('freelance');
+
+      if (!yourParameter) {
+        var newUrl = addQueryParam(window.location.href, 'freelance', 'true');
+        window.location.href = newUrl;
+      }
+    }
+  }
+
+
   // Document on load.
   $(function () {
     fullHeight();
@@ -260,6 +279,8 @@
 
     clickMenu();
     navigationSection();
+
+    addQuery();
 
     mobileMenuOutsideClick();
     sliderMain();
@@ -294,7 +315,7 @@ var accordion = new Accordion($("#accordion"), false);
 function enableDarkMode() {
   document.getElementById('darkModeToggle').innerText = 'Dark Mode';
   document.body.classList.toggle("dark-mode");
-  if(document.body.classList.contains('dark-mode')){
+  if (document.body.classList.contains('dark-mode')) {
     document.getElementById('darkModeToggle').innerText = 'Light Mode';
   }
 }
