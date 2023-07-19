@@ -2586,6 +2586,11 @@ body.dark-mode.offcanvas #colorlib-aside {
 	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
 		display: none;
 	}
+
+	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+		display: block;
+		margin-top: 0.35em;
+	}
 }
 
 button#darkModeToggle {
